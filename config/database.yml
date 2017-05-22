@@ -82,4 +82,5 @@ production:
   <<: *default
   database: codaisseurbnb_production
   username: codaisseurbnb
-  password: <%= ENV['CODAISSEURBNB_DATABASE_PASSWORD'] %>
+  password: 
+#  password: <%= ENV['CODAISSEURBNB_DATABASE_PASSWORD'] %>
