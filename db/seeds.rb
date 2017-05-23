@@ -9,6 +9,7 @@
 Theme.destroy_all
 User.destroy_all
 
+
 modern_style = Theme.create(name: "Modern style")
 classical_style = Theme.create(name: "Classical style")
 warm_and_cozy = Theme.create(name: "Warm and Cozy")
@@ -22,6 +23,11 @@ messy_room = Theme.create(name: "Shows signs of being lived in")
 miriam = User.create(email: "miriam@codaisseurbnb.com", password: "abcd1234")
 wouter = User.create(email: "wouter@codaisseurbnb.com", password: "abcd1234")
 matt = User.create(email: "matt@codaisseurbnb.com", password: "abcd1234")
+
+# Profile.create!(first_name: "Miriam",
+#                 last_name: "Van Damme",
+#                 bio: "I keep good care of my house and love to travel",
+#                 user: miriam)
 
 Room.create!(home_type: "House",
             room_type: "Shared",
@@ -41,7 +47,7 @@ Room.create!(home_type: "House",
             user: miriam,
             themes: [modern_style, clean_room])
 
-Room.create(home_type: "House",
+Room.create!(home_type: "House",
             room_type: "Shared",
             accommodate: 2,
             bedroom_count: 2,
@@ -59,7 +65,7 @@ Room.create(home_type: "House",
             user: wouter,
             themes: [warm_and_cozy, room_with_garden])
 
-Room.create(home_type: "House",
+Room.create!(home_type: "House",
             room_type: "Shared",
             accommodate: 2,
             bedroom_count: 2,

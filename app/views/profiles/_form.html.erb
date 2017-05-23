@@ -1,4 +1,6 @@
 <%= form_for @profile do |f| %>
+
+
   <% @profile.errors.full_messages.each do |msg| %>
     <p class="alert alert-danger"><%= msg %></p>
   <% end %>
@@ -22,4 +24,5 @@
     <%= f.submit "Save", class: "btn btn-primary" %>
     <%= link_to "Back", root_path, class: "btn btn-default" %>
   </div>
+
 <% end %>
