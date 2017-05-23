@@ -70,3 +70,9 @@ gem 'jquery-rails', '~> 4.3.1'
 
 # Use Devise for authentication
 gem 'devise', '~> 4.2'
+
+# Refactoring
+
+# gem 'bullet', group: 'development'
+# gem "rails_best_practices"
+# gem 'rubocop', '~> 0.48.1', require: false

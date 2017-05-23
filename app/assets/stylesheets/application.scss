@@ -18,3 +18,74 @@
 
  @import "bootstrap-sprockets";
  @import "bootstrap";
+
+ // font-family: 'ABeeZee', sans-serif;
+ // font-family: 'Alef', sans-serif;
+ // font-family: 'Alegreya Sans SC', sans-serif;
+ // font-family: 'Amaranth', sans-serif;
+ // font-family: 'Anton', sans-serif;
+ // font-family: 'Archivo Black', sans-serif;
+ // font-family: 'Arimo', sans-serif;
+ // font-family: 'Arya', sans-serif;
+ // font-family: 'Baloo Bhaina', cursive;
+ // font-family: 'Basic', sans-serif;
+ // font-family: 'Bowlby One SC', cursive;
+ // font-family: 'Bungee Shade', cursive;
+ // font-family: 'Candal', sans-serif;
+ // font-family: 'Contrail One', cursive;
+ // font-family: 'Cousine', monospace;
+ // font-family: 'Days One', sans-serif;
+
+h1, h2, h3, h4,h5,h6 {
+  font-family: 'Amaranth', sans-serif;
+  // background-color: yellow;
+}
+
+p {
+  font-family: 'Contrail One', cursive;
+  // background-color: pink;
+}
+
+
+footer {
+
+}
+
+.notice, .alert {
+  font-family: 'Amaranth', sans-serif;
+}
+
+.container {
+  font-family: 'Bowlby One SC', cursive;
+}
+
+.nav {
+  font-family: 'Arimo', sans-serif;
+  background-color: black;
+  font-color: white;
+  font-style: Helvetica;
+  font-size: 20px;
+}
+
+.navbar {
+  background-color: black;
+  font-color: white;
+  font-style: Helvetica;
+  font-size: 20px;
+}
+
+.navbar-text {
+  font-color: white;
+}
+
+
+.dropdown {
+  background-color: black;
+  font-color: white;
+  font-style: Helvetica;
+  font-size: 20px;
+}
+
+.btn {
+  font-color: pink;
+}
