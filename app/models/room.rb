@@ -1,5 +1,6 @@
 class Room < ApplicationRecord
   belongs_to :user
+  has_and_belongs_to_many :themes
 
   validates :home_type, :room_type, :accommodate, :bedroom_count, :bathroom_count, :address,
     presence: true

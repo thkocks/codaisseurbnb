@@ -1,4 +1,5 @@
 <%= form_for @room do |f| %>
+
   <div class="form-group">
     <label>Home Type</label>
     <%= f.select :home_type, [["Apartment", "Apartment"], ["House", "House"], ["Bed & Breakfast", "Bed & Breakfast"]], id: "home_type", prompt: "Select home type", class: "form-control" %>
@@ -66,6 +67,14 @@
     </div>
   </div>
 
+  <label>Themes</label>
+
+      <%= f.collection_check_boxes(:theme_ids, Theme.all, :id, :name) do |b| %>
+    <div class="form-group">
+      <%= b.check_box(class: "check_box") %> <%= b.object.name %>
+    </div>
+  <% end %>
+
   <label>Publish this place?</label>
 
   <div class="form-group">
@@ -75,4 +84,5 @@
   <div class="actions">
     <%= f.submit "Save", class: "btn btn-primary" %>
   </div>
+  
 <% end %>
