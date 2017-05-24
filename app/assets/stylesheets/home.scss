@@ -1,0 +1,21 @@
+html {
+  // background-image: url('http://www.subdude-site.com/WebPages_Local/RefInfo/Computer/WebDev/WebPageTiles/tilesWater/tile_waterDrops_onFlatSurface_bright_bluish_256x256.jpg');
+  // background-image: url('https://www.holidayguru.ie/wp-content/uploads/2016/06/Amsterdam-with-canal-in-the-downtown-Holland-iStock_000030442394_Large-2.jpg');
+  // background-size: cover;
+  // background-image: url('http://i.imgur.com/wUYyBb3.png')
+  background-color: transparent;
+}
+
+html::after {
+  content: "";
+  background-image: url('https://www.holidayguru.ie/wp-content/uploads/2016/06/Amsterdam-with-canal-in-the-downtown-Holland-iStock_000030442394_Large-2.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  opacity: 0.4;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
